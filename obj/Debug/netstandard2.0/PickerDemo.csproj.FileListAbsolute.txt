@@ -1,0 +1,14 @@
+C:\GitHub\PickerDemoProblem_April8\PickerDemoProblem_April8\PickerDemo\PickerDemo\bin\Debug\netstandard2.0\PickerDemo.deps.json
+C:\GitHub\PickerDemoProblem_April8\PickerDemoProblem_April8\PickerDemo\PickerDemo\bin\Debug\netstandard2.0\PickerDemo.dll
+C:\GitHub\PickerDemoProblem_April8\PickerDemoProblem_April8\PickerDemo\PickerDemo\bin\Debug\netstandard2.0\ref\PickerDemo.dll
+C:\GitHub\PickerDemoProblem_April8\PickerDemoProblem_April8\PickerDemo\PickerDemo\bin\Debug\netstandard2.0\PickerDemo.pdb
+C:\GitHub\PickerDemoProblem_April8\PickerDemoProblem_April8\PickerDemo\PickerDemo\obj\Debug\netstandard2.0\PickerDemo.csprojAssemblyReference.cache
+C:\GitHub\PickerDemoProblem_April8\PickerDemoProblem_April8\PickerDemo\PickerDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\GitHub\PickerDemoProblem_April8\PickerDemoProblem_April8\PickerDemo\PickerDemo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\GitHub\PickerDemoProblem_April8\PickerDemoProblem_April8\PickerDemo\PickerDemo\obj\Debug\netstandard2.0\PickerDemo.csproj.CoreCompileInputs.cache
+C:\GitHub\PickerDemoProblem_April8\PickerDemoProblem_April8\PickerDemo\PickerDemo\obj\Debug\netstandard2.0\PickerDemo.AssemblyInfoInputs.cache
+C:\GitHub\PickerDemoProblem_April8\PickerDemoProblem_April8\PickerDemo\PickerDemo\obj\Debug\netstandard2.0\PickerDemo.AssemblyInfo.cs
+C:\GitHub\PickerDemoProblem_April8\PickerDemoProblem_April8\PickerDemo\PickerDemo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\GitHub\PickerDemoProblem_April8\PickerDemoProblem_April8\PickerDemo\PickerDemo\obj\Debug\netstandard2.0\PickerDemo.dll
+C:\GitHub\PickerDemoProblem_April8\PickerDemoProblem_April8\PickerDemo\PickerDemo\obj\Debug\netstandard2.0\ref\PickerDemo.dll
+C:\GitHub\PickerDemoProblem_April8\PickerDemoProblem_April8\PickerDemo\PickerDemo\obj\Debug\netstandard2.0\PickerDemo.pdb

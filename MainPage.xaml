@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:behaviors="clr-namespace:PickerDemo.Behaviors"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PickerDemo.MainPage">
+    <ContentPage.Resources>
+        <DataTemplate x:Key="PickerTemplate">
+            <ViewCell>
+                <StackLayout HorizontalOptions="CenterAndExpand">
+                    <Label Text="Testing..."></Label>
+                    <Picker
+                      HorizontalOptions="Center" 
+                      ItemsSource={Binding PickerList} 
+                      SelectedItem ="{Binding SelectedPickerItem, Mode=TwoWay}"
+                      Title="My Picker"
+                      FontSize="14">    
+                    </Picker>
+                </StackLayout>
+            </ViewCell>
+        </DataTemplate>
+    </ContentPage.Resources>
+
+    <StackLayout>
+
+        <ListView x:Name="DiscoveredItemsListView"
+                HasUnevenRows="True"
+                ItemTemplate="{StaticResource PickerTemplate}"
+                ItemsSource="{Binding DiscoveredItemList}"
+                SeparatorVisibility="None"
+                VerticalOptions="StartAndExpand"
+                Margin="5" >
+        </ListView>
+    </StackLayout>
+   
+</ContentPage>
+
+   
