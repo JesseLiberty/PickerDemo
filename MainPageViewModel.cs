@@ -18,11 +18,9 @@ namespace PickerDemo
 
         public MainPageViewModel()
         {
-            pickerItems = PopulateCollection();
+            pickerItems     = PopulateCollection();
             firstPickerItem = pickerItems.FirstOrDefault();
             PopulateDiscoveredItemList();
-            DiscoveredItemList[0].PickedEvent += SomeMethod;
-
         }
 
         public List<string> PopulateCollection()
@@ -52,6 +50,12 @@ namespace PickerDemo
                 new DiscoveredItem {PickerList = pickerItems, SelectedPickerItem = firstPickerItem, id=3},                
                 new DiscoveredItem {PickerList = pickerItems, SelectedPickerItem = firstPickerItem, id=4 },                
             };
+
+            foreach (var discoveredItem in DiscoveredItemList)
+            {
+                discoveredItem.PickedEvent += SomeMethod;
+            }
+
         }
 
 

@@ -6,7 +6,6 @@ namespace PickerDemo
     public class DiscoveredItem : ViewModelBase
     {
         public delegate void Picked();
-
         public event Picked PickedEvent;
 
         public int id { get; set; }
