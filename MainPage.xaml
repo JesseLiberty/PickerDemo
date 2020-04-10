@@ -13,7 +13,7 @@
                     <Label Text="Testing..."></Label>
                     <Picker
                       HorizontalOptions="Center" 
-                      ItemsSource={Binding PickerList} 
+                      ItemsSource="{Binding PickerList}"
                       SelectedItem ="{Binding SelectedPickerItem, Mode=TwoWay}"
                       Title="My Picker"
                       FontSize="14">    

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
@@ -19,12 +20,13 @@ namespace PickerDemo
         {
             pickerItems = PopulateCollection();
             firstPickerItem = pickerItems.FirstOrDefault();
-
             PopulateDiscoveredItemList();
+            DiscoveredItemList[0].PickedEvent += SomeMethod;
+
         }
 
         public List<string> PopulateCollection()
-        {
+        { 
             var myCollection = new List<string>
             {
                 "hello",
@@ -34,6 +36,11 @@ namespace PickerDemo
             };
 
             return myCollection;
+        }
+
+        private void SomeMethod()
+        {
+            Console.WriteLine(">>>>>>>>>>>>> A value was picked <<<<<<<<<");
         }
 
         public void PopulateDiscoveredItemList()
